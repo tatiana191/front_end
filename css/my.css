@@ -1,0 +1,129 @@
+
+body {
+    background-image: url(https://html5book.ru/wp-content/uploads/2015/05/background9.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    z-index: 1;
+    position: relative;
+}
+.title {
+    color: #384c57;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 5px;
+    margin: 30px;
+    font-size: 70px;
+}
+.text {
+    color: black;
+    width: 7em;
+    font-size: 5vw;
+    opacity: 30%;
+    border: 5px solid orange;
+    border-radius: 10 px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 130px;
+    z-index: 2; 
+    padding-left: 27px;
+    display: block;
+}
+
+.img {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 30px;
+}
+.name {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 5px;
+    font-size: 2vw;
+    border: 3px solid ;
+    border-color:#53828c;
+    border-radius: 5px;
+    background: #53828c;
+    width: 29%;
+    margin-top: -29%;
+    margin-left: 6%;
+    padding-left: 24px;
+    padding-right: 5px;
+    position: absolute;
+    z-index: 2;
+    display: block;
+    grid-auto-flow: column;
+}
+.contact {
+    color: #0a343d;
+    letter-spacing: 1px;
+    font-size: 2vw;
+    border: 2px solid #f24d11;
+    border-radius: 5px;
+    background:#f24d11;
+    float: right;
+    margin-right: 8%;
+    margin-top:-20%;
+    z-index: 2;
+    position: relative;
+    padding-left: 20px;
+    width: fit-content;
+    display: block;
+    }
+.cont {
+    color: white;
+    font-weight: 15px;
+    padding: 2px;
+}
+.itme {
+    color: white;
+    font-size: 2vw;
+    border: 3px solid #f24d11;
+    background: #f24d11;
+    float: inline-start;
+    width: 18%;
+    padding-left: 15px;
+    margin-left: 70px;
+    margin-top: 25px;
+    letter-spacing: 5px;
+}
+.hello {
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 3px;
+    font-size: 2vw;
+    border: 1px solid ;
+    border-color:#53828c;
+    width: 50%;
+    padding: 10px 10px 10px 10px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.content_title {
+    color: white;
+    font-size: 2vw;
+    border: 3px solid #53828c;
+    background:#53828c;
+    float: inline-start;
+    width: 50%;
+    padding-left: 2px;
+    margin-left: 68px;
+}
+.list {
+    color:#f24d11;
+    font-size: 20px;
+}
+.exile:hover {
+    color: #f24d11;
+}
+.item {
+    overflow: hidden;
+    white-space: normal;
+    float: left;
+    padding: auto;
+    width: 25%;
+    margin-left: 7%;
+
+  
+}
