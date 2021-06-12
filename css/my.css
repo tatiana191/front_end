@@ -1,4 +1,6 @@
 
+
+
 body {
     background-image: url(https://html5book.ru/wp-content/uploads/2015/05/background9.jpg);
     background-repeat:no-repeat;
@@ -29,11 +31,12 @@ body {
     display: block;
 }
 
-.img {
+.d-block  {
     text-align: center;
     position: relative;
     z-index: 1;
     margin-bottom: 30px;
+    margin-left: 30%;
 }
 .name {
     color: white;

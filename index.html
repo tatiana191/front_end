@@ -7,8 +7,6 @@
     <meta name="resume" content="text/html">
     <link rel="stylesheet" href="css/my.css" >
     <style type="text/css"></style>
-    <link rel="stylesheet" href="https://fontawesome.com/icons/at?style=solid">
-    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
@@ -20,11 +18,30 @@
             <h1 class="title">RESUME</h1>
             <h1 class="text">Front-end</h1>
         <div class="it_me">
-            <div class="img"><img src="photo_2021-04-26_17-35-25.jpg" width="400px;" height="600px" alt="photo"></div> 
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="photo_2021-04-26_17-35-25.jpg" class="d-block " width="400px;" height="600px" alt="photo">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="photo_2021-06-07_22-20-00.jpg" class="d-block " width="400px;" height="600px" alt="photo">
+                  </div>
+                </div>
+            </div>
             <div class="name"><i class="fa fa-user-circle" aria-hidden="true"></i>Tatiana Nozhenko</div>
             <div class="contact">
-                <b><i class="fa fa-tty" aria-hidden="true"></i>Contact:</b><a class="cont" href="tel:+380981006878"><br>0981006878</br></a>
-                <b><i class="fa fa-envelope-open" aria-hidden="true"></i>E-mail:</b><a class="cont" href="mailto:t.nozhenko@icloud.com"><br>t.nozhenko@icloud.com</br></a>
+                <div>
+                    <b><i class="fa fa-tty" aria-hidden="true"></i>Contact:</b>
+                    <a class="cont" href="tel:+380981006878">
+                    <button type="button" class="btn btn-outline-dark">0981006878</button></a>
+                   
+                    
+                </div>
+                <div>
+                    <b><i class="fa fa-envelope-open" aria-hidden="true"></i>E-mail:</b>
+                    <a class="cont" href="mailto:t.nozhenko@icloud.com">
+                    <button type="button" class="btn btn-outline-dark">t.nozhenko@icloud.com</button></a>
+                </div>
             </div>
           </div>
         <div id="aboutme">
@@ -35,29 +52,32 @@
           </div>
     <div id="resume_content">
         <div class="item formtion">
-            <h4 class="content_title">Formation</h4>
-                <ul> 
-                    <li> <b class="list">Bachelor Degre:</b></Bachelor> <br>Zaporizhia State Engineering Academy;</br>
-                        <b class="list">Faculty:</b><br>Construction and arhitecture</br>
-                        </li>
-                    <li><b class="list">Junior specialist:</b><br>Zaporizhzhya Construction Colleg;</br>
-                        <b class="list">Faculty:</b><br>Construction and operation of buildings and structures</br>
-                    </li>
-                </ul>
-            </div>
-        <div class="item course">
+                    <h4 class="content_title">Formation</h4>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink"></ul> 
+                            <li> <b class="list">Bachelor Degre:</b><br>Zaporizhia State Engineering Academy;</br>
+                                <b class="list">Faculty:</b><br>Construction and arhitecture</br>
+                                </li>
+                            <li><b class="list">Junior specialist:</b><br>Zaporizhzhya Construction Colleg;</br>
+                                <b class="list">Faculty:</b><br>Construction and operation of buildings and structures</br>
+                            </li>
+                        </ul>
+                    </div>
+     <div class="item course">
             <h4 class="content_title">Courses</h4>
                 <ul id="course"> 
                     <li>
                         <b class="list">HTML5</b>
-                        <br><a href="https://itproger.com/course/html" class="exile">https://itproger.com/course/html</a></br>
+                        <br><a  href="https://itproger.com/course/html" class="exile">
+                            <button type="button" class="btn btn-outline-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Click">
+                                https://itproger.com/course/html</button>
+                                </a></br>
                     </li>
                     <li>
                         <b class="list">CSS3</b>
-                            <br><a href="https://itproger.com/course/css/10" class="exile">https://itproger.com/course/css</a></br>
+                            <br><a href="https://itproger.com/course/css/10" class="exile"><button type="button" class="btn btn-outline-secondary">https://itproger.com/course/css</button></a></br>
                     </li>
                     <li><b class="list">LAYOUT</b>
-                            <br><a href="https://goit.ua/dlya-novichkov/" class="exile">https://goit.ua/dlya-novichkov/</a></br>
+                            <br><a href="https://goit.ua/dlya-novichkov/" class="exile"><button type="button" class="btn btn-outline-secondary">https://goit.ua/dlya-novichkov/</button></a></br>
                     </li>
                 </ul>
           </div>
@@ -66,7 +86,7 @@
                 <ul id="Skills"> 
                     <li>English: basic</li>
                     <li>Layout: 
-                         <br><a href="https://condescending-lalande-175793.netlify.app/" class="exile">https://condescending-lalande-175793.netlify.app/</a></br>
+                         <br><a href="https://condescending-lalande-175793.netlify.app/" class="exile"><button type="button" class="btn btn-outline-secondary">https://condescending-lalande-175793.netlify.app/</button></a></br>
                     </li>
                     <li>Purposefulness</li>
                     <li>Comunicability</li>
@@ -75,7 +95,8 @@
     </div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
 </body>
 
 </html>
